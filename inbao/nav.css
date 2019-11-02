@@ -1,0 +1,46 @@
+body {
+  width: 90%;
+  margin: 10px auto;
+}
+#heading {
+  height: 60px;
+
+  background-color: antiquewhite;
+  text-align: center;
+}
+
+#section a {
+  position: relative;
+  margin: 50px;
+}
+
+#section {
+  height: 800px;
+  width: 100%;
+  background-color: peru;
+  border: 2px solid purple;
+}
+
+.clearfix {
+  clear: both;
+}
+
+nav ul li {
+  list-style-type: none;
+  float: left;
+  margin: 15px;
+  font-size: 15px;
+}
+
+#heading nav ul {
+  padding: 0px;
+}
+
+#heading nav a {
+  background-color: gold;
+  padding: 5px;
+}
+
+#heading nav a:hover {
+  background-color: darkorange;
+}

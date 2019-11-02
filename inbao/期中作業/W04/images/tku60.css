@@ -1,0 +1,39 @@
+body {
+  width: 90%;
+  margin: 20px auto;
+}
+
+#menu nav ul {
+  padding: 0px;
+}
+
+#menu nav li {
+  list-style-type: none;
+  margin: 25px;
+  font-size: 15px;
+}
+
+#menu nav a {
+  padding: 5px;
+  background-color: darksalmon;
+}
+
+#menu nav a:hover {
+  background-color: crimson;
+}
+
+#section {
+  height: 400px;
+  width: 80%;
+  background-color: peru;
+
+  float: right;
+}
+
+#menu {
+  height: 400px;
+  width: 20%;
+  background-color: darkcyan;
+  font-size: 20px;
+  float: left;
+}
